@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - tLifebar
+  - tFire
+  - tPoint
+  - tGround
+  - tPlayer
+  - tFall
+  - tEnemy
+  - tStop
+  - tDestroyWheel
+  - tWheel
+  - tSpeedBoost
+  - tLife
+  - tDialogue
+  - tGame
+  - tPlof
+  - tStop2
+  - tPtarget
+  - tPush
+  - tUmbrella
+  - tGreenButton
+  - tBox1Pos
+  - tBox2Pos
+  - tBox3Pos
+  - tBox4Pos
+  - tBox5Pos
+  - tEnemyGround
+  - tPlayerBullet
+  - tBox6Pos
+  - tBox7Pos
+  - tSkate
+  - tPlatform
+  - tGameMaster
+  - tBall
+  - tSpObj
+  - tCat
+  - tCoin
+  - tCrouch
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Player
+  - Enemies
+  - 
+  - Point
+  - 
+  - BreakableObjs
+  - Bins
+  - 
+  - SecondCollision
+  - SpecialObject
+  - 
+  - NoCollision
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

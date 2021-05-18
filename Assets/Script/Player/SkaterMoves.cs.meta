@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 133e862c919264589a29670989ae398c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spawnShoe: {instanceID: 0}
+  - redShoeImage: {instanceID: 0}
+  - kickPos: {instanceID: 0}
+  - darkSkaterAnim: {fileID: 22100000, guid: 99f98a5cde2614956ae9ce18151b1b79, type: 2}
+  - angeLiskoAnim: {fileID: 22100000, guid: 782477a507dbc4202940fc0d4794acdc, type: 2}
+  - mRB2D: {instanceID: 0}
+  - notEnoughCoins: {instanceID: 0}
+  - itemSold: {instanceID: 0}
+  - umbrellaBounce: {instanceID: 0}
+  - skateSound: {instanceID: 0}
+  - speedBoostSound: {instanceID: 0}
+  - wheelExplodes: {instanceID: 0}
+  - kickSound: {instanceID: 0}
+  - plof: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

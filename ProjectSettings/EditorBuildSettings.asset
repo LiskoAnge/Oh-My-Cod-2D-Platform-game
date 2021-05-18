@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: bb8290cfe630c42ccad14b7f56b43c14
+  - enabled: 1
+    path: Assets/Scenes/PhoneCall.unity
+    guid: c2f0f2cd8ec41478e9dfe6c89d75a935
+  - enabled: 1
+    path: Assets/Scenes/StoryGame.unity
+    guid: a3b557b163c64460594d579a0fcd77de
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: 1b67b5dcb80854ffea1ac32baf429ab7
+  - enabled: 1
+    path: Assets/Scenes/LevelTwo.unity
+    guid: 684542f6e5ba643bc9b164c25989c92b
+  - enabled: 1
+    path: Assets/Scenes/RoyalPavilion.unity
+    guid: 9efe0d4c6f1204fcdb259d38d284afd0
+  - enabled: 1
+    path: Assets/Scenes/BossFight.unity
+    guid: 7327d95734449412786033c4589f92d3
+  - enabled: 1
+    path: Assets/Scenes/BrSeafront.unity
+    guid: 823eac2a6f5914495a81660c0fe3dfa1
+  - enabled: 1
+    path: Assets/Scenes/Seafront.unity
+    guid: 81edd66c6162047749d9617ffa6dec26
+  - enabled: 1
+    path: Assets/Scenes/WestPier.unity
+    guid: 2ae7c5a2fca38497ba40d8f8f75363af
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: b419dc62d193349608d64bc8d63433be
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: ec03198cee5514fa6a039b1658dd02ce
+  - enabled: 1
+    path: Assets/Scenes/RecyclingBins.unity
+    guid: 922cd3003177c479cb4622bafed5e4c7
+  - enabled: 1
+    path: Assets/Scenes/Winner.unity
+    guid: bd48bd5072cf346f2a5d8a1f42ab0624
+  m_configObjects: {}

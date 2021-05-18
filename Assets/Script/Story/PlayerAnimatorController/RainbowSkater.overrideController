@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RainbowSkater
+  m_Controller: {fileID: 9100000, guid: 64ee9d16d621145d596fc56f8810f2cc, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 119cf5518961d492280d683dbc2a9835, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d20b38096c2e947bab5ba9a787d9cd6d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 35d241d265d594d9fa9f87e933ed4f4d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2850c413b7d1d4f089c648eec2f8995a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2f6c209eed4fc42ab9f1ec0d8a8490a0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a7d3a45204d8b489e93652543d4b080d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4dab91475ee4a4cb1a588ec51d5a9843, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e9f5b7f83ad46421f9bd19a5b2c86346, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f76ea54905f2f4ea5a113acfe0fb02e6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: babd3283662ef4772bf167e14639dfbe, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e7ecfab2059ee42699b8071a7763912a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d829665fa998c4ce38159bc2554ca1ee, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4abdb4f7adff5418b970dfe40875e9ac, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 35e7e94d4cec1472f8738ea349c49042, type: 2}
