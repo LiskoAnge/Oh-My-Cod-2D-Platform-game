@@ -47,4 +47,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Winner.unity
     guid: bd48bd5072cf346f2a5d8a1f42ab0624
+  - enabled: 1
+    path: Assets/NEWPROJECT/Scenes/MainMenu.unity
+    guid: fb5da6694878240c383e6c960292cbcb
+  - enabled: 1
+    path: Assets/NEWPROJECT/Scenes/LevelSelect.unity
+    guid: 1091a2adc4d314d8881b10f2b5fd5a04
+  - enabled: 1
+    path: Assets/NEWPROJECT/Scenes/Level1.unity
+    guid: 27637cdfd43ab4a48a347ef20a9cd79e
   m_configObjects: {}
