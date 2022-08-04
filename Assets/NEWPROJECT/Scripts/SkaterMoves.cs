@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 
 public class SkaterMoves : MonoBehaviour
@@ -13,9 +12,9 @@ public class SkaterMoves : MonoBehaviour
     public bool shootingShoes = false;
     public bool jumpHigherAnge = false;
     public bool secretRainbow = false;
-    public bool isLanded = false;
+
     public bool isKicking;
-    private bool isJumping;
+    //private bool isJumping;
     public bool isFalling = false;
     public bool isHurting = false;                                 //BOOLEANS
     public bool isDead;
@@ -38,7 +37,7 @@ public class SkaterMoves : MonoBehaviour
     public float kickRange;
     private float jumpForce = 3.5f;                                //FLOATS                   -set public otherwise can not change value in the inspecotr
     public float gameOverDelay = 1f;
-    public float skaterSpeed = 0.9f;
+    public float skaterSpeed = 1f;
     private float boostTime;
 
     public Transform kickPos;
@@ -137,6 +136,8 @@ public class SkaterMoves : MonoBehaviour
     {
         Physics2D.IgnoreLayerCollision(9, 20);     // 9 = PLAYER'S LAYER. 20 = IGNORE COLLISION AT LAYER N.20.THIS LAYER IS NEEDED TO STOP CLOUD PLATFORM OR ENEMY PATROL
 
+
+        /*
         if (Input.GetButtonDown("Jump") && isLanded == true)     //&& !isDead
         {
             //Debug.Log("Player is jumping!");
@@ -145,7 +146,8 @@ public class SkaterMoves : MonoBehaviour
             mRB2D.velocity = Vector2.up * jumpForce;
             //gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 2f), ForceMode2D.Impulse);
             skateSound.Play();
-        }
+        } 
+
 
         if (Input.GetButton("Jump") && isJumping == true)
         {
@@ -165,6 +167,7 @@ public class SkaterMoves : MonoBehaviour
         {
             isJumping = false;
         }
+        /*
         if (isLanded == false)
         {
             anima.SetBool("isJumping", true);
@@ -172,7 +175,7 @@ public class SkaterMoves : MonoBehaviour
         else
         {
             anima.SetBool("isJumping", false);
-        }
+        } */
         if (Input.GetButtonDown("Crouch"))
         {
             anima.SetBool("isCrouching", true);
@@ -295,33 +298,9 @@ public class SkaterMoves : MonoBehaviour
             anima.SetBool("isDead", true);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-
-        float tHorizontal = Input.GetAxis("Horizontal"); //Get left/right
-        mRB2D.velocity = new Vector2(tHorizontal * skaterSpeed, mRB2D.velocity.y);
-
-        if (Input.GetAxis("Horizontal") > 0.5f)
-        {
-            anima.SetBool("isWalking", true);
-            movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-            transform.Translate(new Vector3(Input.GetAxis("Horizontal") * skaterSpeed * Time.deltaTime, 0f, 0f));
-            facingRight = true;
-            transform.localRotation = Quaternion.Euler(0, 0, 0);
-           // transform.localScale = new Vector3(1, 1, 1);
-        }
-        else if (Input.GetAxis("Horizontal") < -0.5f)
-        {
-            anima.SetBool("isWalking", true);
-            movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-            transform.Translate(new Vector3(Input.GetAxis("Horizontal") * -skaterSpeed * Time.deltaTime, 0f, 0f));
-            facingRight = false;
-            transform.localRotation = Quaternion.Euler(0, 180, 0);
-           // transform.localScale = new Vector3(-1, 1, 1);
-        }
-        else
-        {
-            anima.SetBool("isWalking", false);
-        }
     }
+
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
